@@ -16,8 +16,8 @@ const Homepage = () => {
     <>
       <Navbar />
       <div className='grid grid-cols-12'>
-        <div className='ml-24 col-span-5 h-screen flex flex-col justify-center items-start'>
-          <h1 className='max-w-[600px] font-bold text-6xl mb-8'>Find a place you will love to live!</h1>
+        <div className='col-span-12 lg:col-span-6 mx-10 md:ml-24 h-screen flex flex-col justify-center items-center md:items-start'>
+          <h1 className='max-w-[900px] lg:max-w-[600px] md:text-left font-bold text-6xl mb-8'>Find a place you will love to live!</h1>
           <p className='max-w-[600px] text-base mb-8'>
             See through the lenses of people who have lived or visited
             the neighbourhood you might have in mind.
@@ -34,8 +34,8 @@ const Homepage = () => {
             SEARCH
           </button>
         </div>
-        <div className=' col-start-8 col-span-5 left-7 mr-24 h-screen flex flex-col  relative '>    
-          <div className='container overflow-y-scroll grid grid-cols-2 gap-4'>
+        <div className='mx-auto lg:col-start-8 col-span-12 lg:col-span-5 lg:left-7 lg:mr-24 h-screen flex flex-col bg-[#e5eaf5] relative '>    
+          <div className='container overflow-y-scroll grid lg:grid-cols-2 gap-4'>
             {additionalContainers.map((_, index) => (
               <div key={index} className='w-[239px] h-[233px] rounded-xl bg-customWhite'>
                 <div className='flex flex-col grid-cols-2 '>
@@ -74,7 +74,6 @@ const Homepage = () => {
           </div>
           <div className="absolute overflow-y-scroll top-1 bottom-1 left-1 right-1 bg-gradient-to-b from-white via-transparent to-white " />
         </div>
-        
       </div>
     </>
   );

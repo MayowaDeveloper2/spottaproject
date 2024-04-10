@@ -10,6 +10,7 @@ module.exports = {
         customGreyy: '#808080',
         customlightBlue: "#F2F6FD",
         customDarkBlue: "#0D2159",
+        lightBlue: "#F3F7FE",
       }
     },
   },
