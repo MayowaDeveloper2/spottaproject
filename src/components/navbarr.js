@@ -4,12 +4,12 @@ import SearchIcon from '@mui/icons-material/Search';
 import CloseIcon from '@mui/icons-material/Close';
 import spottaim from "../assets/spotta.avif";
 import LocationInfo from "../components/locationinfo";
-import Noreview from './noreviews';
+//import Noreview from './noreviews';
 import AllReviews from '../components/allreviews';
 
 const Navbarr = () => {
 
-    const [reviewCount] = useState(0);
+    const [reviewCount] = useState(1);
     return (
         <> 
             <div className="flex items-center justify-between h-[50px] md:h-[82px] bg-[#F2F6FD] w-full mb-5 fixed top-0 left-0 px-[15px] md:px-[100px] lg:px-[100px] z-50">
@@ -38,7 +38,7 @@ const Navbarr = () => {
             </div>
             {reviewCount === 0 ? (
                 <div className='' >
-                    <Noreview />
+                    <AllReviews />
                 </div>
             ) : (
                 <AllReviews />
