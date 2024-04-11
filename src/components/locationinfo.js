@@ -9,8 +9,8 @@ import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
 const LocationInfo = () => {
     const [showReviewForm, setShowReviewForm] = useState(false);
     const tabs = [
-        'Parking Lot', 'Nightlife', 'Hospitals', 'Adult Home', 'Schools',
-        'Free Wi-Fi', 'Pet Store', 'Childcare', 'Gym', 'Security'
+        'Schools', 'Hospitals', 'Resort Park', 'Shopping Malls', 'Airport', 'Train Station', 'Nightlife', 'Public Wifi', 'Parking Lot', 'Security',
+        'Public Transport', 'Bus Station', 'Quiet'
     ];
 
     const handleClick = () => {
