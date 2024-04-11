@@ -15,7 +15,14 @@ code {
 .overflow-y-scroll::-webkit-scrollbar {
   width: 0px;
   display: none;
+} 
+
+
+.scrollable-tabs-container ul::-webkit-scrollbar {
+  display: none;
 }
+
+
 
 
 
