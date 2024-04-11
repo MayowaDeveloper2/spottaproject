@@ -18,7 +18,7 @@ const LocationInfo = () => {
                         Bonny and Clyde Street, Ajao Estate, Lagos
                     </h1>
                     <p className="text-sm lg:text-base font-[500] text-[#18181B]">
-                        <span>0 "Reviews"</span>
+                        <span>"450" Reviews (People are raving about the selected location)</span>
                     </p>
                     <div className="flex flex-row justify-end gap-4 md:absolute md:right-0 md:px-[100px]">
                         
