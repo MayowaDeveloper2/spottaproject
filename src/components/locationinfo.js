@@ -36,7 +36,7 @@ const LocationInfo = () => {
                         </div>
                         
                     </div>
-                    <div className=' mx-auto scrollable-tabs-container w-[380px] lg:w-[1240px] md:w-[800px] flex  overflow-hidden '>
+                    <div className=' mx-auto scrollable-tabs-container w-[360px] lg:w-[1240px] md:w-[800px] flex  overflow-hidden '>
                         <div className='absolute mt-1'>
                           <KeyboardArrowLeftIcon className='bg-gray-50 rounded-full w-6 h-6 cursor-pointer' style={{color: "#000000"}} />  
                         </div>
