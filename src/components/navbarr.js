@@ -20,7 +20,7 @@ const Navbarr = () => {
                             <div className='absolute inset-y-0 left-0 flex items-center ps-3 pointer-events-none'>
                                 <SearchIcon />
                             </div>
-                            <input  type='search' className='lg:w-[778px] w-[150px] ps-10 px-3 py-2 border border-gray-300 rounded-md bg-gray-50 focus:outline-none' placeholder='Bonny and Clyde Street, Ajao Estate, Lagos' />
+                            <input  type='text' className='lg:w-[778px] w-[150px] ps-10 px-3 py-2 border border-gray-300 rounded-md bg-gray-50 focus:outline-none text-sm' placeholder='Bonny and Clyde Street, Ajao Estate, Lagos' />
                             <div className='absolute right-0 flex items-center inset-y-0 pe-3'>
                                 <CloseIcon />
                             </div>

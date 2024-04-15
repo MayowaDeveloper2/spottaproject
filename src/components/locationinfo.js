@@ -17,6 +17,7 @@ const LocationInfo = () => {
         setShowReviewForm(!showReviewForm);
     };
 
+    
     return (
         <div className="lg:h-[135px] h-[195px] md:h-[175px] flex flex-col w-full items-start justify-start px-[15px] md:px-[100px] bg-[#F2F6FD] gap-4 ">
             <div className="flex flex-col md:flex-row justify-between items-start h-fit w-full gap-3">
@@ -48,7 +49,7 @@ const LocationInfo = () => {
                             ))}
 
                         </ul>
-                        <div class=" flex justify-end mt-1">
+                        <div className=" flex justify-end mt-1">
                            <KeyboardArrowRightIcon className=' bg-gray-50 rounded-full w-6 h-6 cursor-pointer' style={{color: "#000000"}} />
                         </div>
 
